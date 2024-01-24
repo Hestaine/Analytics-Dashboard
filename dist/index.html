@@ -11,36 +11,36 @@
     <link rel="stylesheet" href="/dist/styles.css">
 </head>
 <body class="bg-ash-100 font-jarkata">
-    <div class="container flex flex-row overflow-hidden">
-        <div class="slidebar flex flex-col bg-ash-50 gap-[9rem] w-[75px] pt-[1rem] items-center relative">
+    <div class="container flex flex-row">
+        <div class="slidebar flex flex-col bg-ash-1000 gap-[9rem] md:w-[75px] pt-[1rem] items-center relative">
             <div class="first-slide">
-                <img src="./images/analytics.svg" alt="analytics" class="analytics p-[10px] cursor-pointer">
-                <img src="./images/fourboxes.svg" alt="dashboard" class="dashboard p-[15px] cursor-pointer">
+                <img src="./images/analytics.svg" alt="analytics" class="analytics md:p-[10px] cursor-pointer">
+                <img src="./images/fourboxes.svg" alt="dashboard" class="dashboard md:p-[15px] cursor-pointer">
                 <img src="./images/imgbefore.svg" alt="imgbefore" class="imgbefore absolute top-[92px] right-0">
-                <img src="./images/income.svg" alt="income" class="income p-[15px] cursor-pointer">
-                <img src="./images/friends.svg" alt="friends" class="friends p-[15px] cursor-pointer">
-                <img src="./images/cube.svg" alt="cube" class="cube p-[15px] cursor-pointer">
-                <img src="./images/stone.svg" alt="stone" class="stone p-[15px] cursor-pointer">
+                <img src="./images/income.svg" alt="income" class="income md:p-[15px] cursor-pointer">
+                <img src="./images/friends.svg" alt="friends" class="friends md:p-[15px] cursor-pointer">
+                <img src="./images/cube.svg" alt="cube" class="cube md:p-[15px] cursor-pointer">
+                <img src="./images/stone.svg" alt="stone" class="stone md:p-[15px] cursor-pointer">
                 <img src="./images/information.svg" alt="information" class="information p-[15px] cursor-pointer">
-                <div class="theme bg-white p-[7px] items-center flex flex-col gap-[1rem] w-[75%] mx-auto rounded-full">
+                <div class="theme bg-white md:p-[7px] items-center flex flex-col gap-[1rem] w-[75%] mx-auto rounded-full">
                 <img src="./images/bright.svg" alt="bright" class="bright cursor-pointer w-[100%]">
                 <img src="./images/dark.svg" alt="dark" class="dark cursor-pointer w-[100%]">
                 </div>
             </div>
-            <div class="second-slide flex flex-col items-center w-[100%]">
-                <img src="./images/forward.svg" alt="forward" class="forward p-[15px] cursor-pointer">
-                <img src="./images/settings.svg" alt="settings" class="settings p-[15px] cursor-pointer">
-                <img src="./images/logout.svg" alt="logout" class="logout p-[15px] cursor-pointer">
+            <div class="second-slide flex flex-col items-center w-[100%] overflow-hidden">
+                <img src="./images/forward.svg" alt="forward" class="forward md:p-[15px] cursor-pointer">
+                <img src="./images/settings.svg" alt="settings" class="settings md:p-[15px] cursor-pointer">
+                <img src="./images/logout.svg" alt="logout" class="logout md:p-[15px] cursor-pointer">
             <div class="whitespace bg-white w-[100%] h-[90px]"></div>
             </div>
         </div>
         <div class="main">
-            <div class="nav">
+            <div class="nav bg-ash-50 flex gap-[10rem] justify-between items-center">
                 <h2 class="dashboard-text">Dashboard</h2>
-                <div class="right-nav">
-                    <label for="search" class="search-label">
-                        <img src="./images/search.svg" alt="search" class="search">
-                        <input type="search" name="search" id="search" class="search " placeholder="Search...">
+                <div class="right-nav flex">
+                    <label for="search" class="search-label relative">
+                        <input type="search" name="search" id="search" class="search h-[3rem] pl-[1rem] items-center" placeholder="Search...">
+                        <img src="./images/search.svg" alt="search" class="search absolute top-[3px] left-[3px]">
                     </label>
                     <label for="calender" class="calender-label">
                         <img src="./images/calender.svg" alt="calender" class="calender">

@@ -40,7 +40,7 @@ module.exports = {
         'h3': '32px',
         'h4': '24px',
         'h5': '20px'
-      }
+      },
     },
   },
   plugins: [],
