@@ -26,7 +26,8 @@ module.exports = {
         "lightgreen": "#34CAA5",
         "opaquegreen": "rgba(52, 202, 165, 0.12)",
         "opaquered": "rgba(237, 84, 78, 0.12)",
-        "bar": "rgba(52, 202, 165, 0.10)"
+        "bar": "rgba(52, 202, 165, 0.10)",
+        "barhover": "rgba(52, 202, 165)"
       },
       screens: {
         'sm': '340px',
