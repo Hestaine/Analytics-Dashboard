@@ -24,7 +24,8 @@ module.exports = {
         "yellow": "#FFB74A",
         "lightred": "#ED544E",
         "lightgreen": "#34CAA5",
-        
+        "opaquegreen": "rgba(52, 202, 165, 0.12)",
+        "opaquered": "rgba(237, 84, 78, 0.12)"
       },
       screens: {
         'sm': '340px',
