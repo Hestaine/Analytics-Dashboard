@@ -25,7 +25,8 @@ module.exports = {
         "lightred": "#ED544E",
         "lightgreen": "#34CAA5",
         "opaquegreen": "rgba(52, 202, 165, 0.12)",
-        "opaquered": "rgba(237, 84, 78, 0.12)"
+        "opaquered": "rgba(237, 84, 78, 0.12)",
+        "bar": "rgba(52, 202, 165, 0.10)"
       },
       screens: {
         'sm': '340px',
@@ -43,6 +44,9 @@ module.exports = {
         'h4': '24px',
         'h5': '20px'
       },
+      borderRadius: {
+        "bar": "1.25rem 1.25rem 0rem 0rem"
+      }
     },
   },
   plugins: [],
