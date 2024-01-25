@@ -46,9 +46,13 @@ module.exports = {
         'h5': '20px'
       },
       borderRadius: {
-        "bar": "1.25rem 1.25rem 0rem 0rem"
+        "bar": "1.25rem 1.25rem 0rem 0rem",
+        "platform": "0.5rem 0.5rem 0rem 0rem"
       }
     },
+    padding: {
+      "platform": "1rem 1rem 2rem 1.25rem"
+    }
   },
   plugins: [],
 }

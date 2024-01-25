@@ -12,10 +12,10 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body class="bg-ash-100 font-jarkata">
-    <div class="container flex flex-row">
-        <div class="slidebar flex flex-col bg-ash-1000 gap-[14rem] w-[5rem] pt-[1.25rem] items-center relative">
-            <div class="first-slide flex flex-col items-center gap-[1rem]">
-                <img src="./images/analytics.svg" alt="analytics" class="analytics p-[0.625rem] cursor-pointer">
+    <div class="container flex flex-row h-[60.5vh] w-auto justify-stretch pb-0">
+        <div class="slidebar flex flex-col bg-ash-1000 gap-[4.9rem] w-[5rem] pt-[1.25rem] items-center relative">
+            <div class="first-slide flex flex-col items-center gap-[1rem] w-[4rem]">
+                <img src="./images/analytics.svg" alt="analytics" class="analytics p-[0.625rem] cursor-pointer w-[100%]">
                 <img src="./images/fourboxes.svg" alt="dashboard" class="dashboard p-[0.625rem] cursor-pointer">
                 <img src="./images/imgbefore.svg" alt="imgbefore" class="imgbefore absolute top-[85px] right-0">
                 <img src="./images/income.svg" alt="income" class="income p-[0.625rem] cursor-pointer">
@@ -28,14 +28,14 @@
                 <img src="./images/dark.svg" alt="dark" class="dark cursor-pointer w-[100%]">
                 </div>
             </div>
-            <div class="second-slide flex flex-col items-center w-[100%] overflow-hidden gap-[1.5rem]">
+            <div class="second-slide flex flex-col items-center gap-[1.5rem] w-[4rem]">
                 <img src="./images/forward.svg" alt="forward" class="forward p-[0.625rem] cursor-pointer">
                 <img src="./images/settings.svg" alt="settings" class="settings p-[0.625rem] cursor-pointer">
                 <img src="./images/logout.svg" alt="logout" class="logout p-[0.625rem] cursor-pointer">
             <div class="whitespace bg-white w-[100%] h-[90px]"></div>
             </div>
         </div>
-        <div class="main w-[98vh] flex flex-col">
+        <div class="main w-[98vw] flex flex-col">
             <div class="nav bg-ash-50 flex gap-[20rem] justify-center items-center p-[1rem] w-[98.3vw] border border-[#DADDDD]">
                 <h2 class="dashboard-text text-h5">Dashboard</h2>
                 <div class="right-nav flex gap-[1.rem] items-center">
@@ -58,8 +58,8 @@
                     </div>
                 </div>
             </div>
-            <div class="sections flex flex-col w-[98vw] p-[1.3rem]">
-                <section class="sect1 flex gap-[1rem]">
+            <div class="sections flex flex-col w-[98vw]">
+                <section class="sect1 flex p-[1.3rem] gap-[1rem]">
                     <div class="sales-trend flex flex-col w-[50.375rem] h-[23.375rem] flex-shrink-0 rounded-[0.875rem] bg-white border border-solid border-[#EDF2F7] p-[14.4px] gap-[16.4px]">
                         <div class="charthead flex w-[47.875rem] justify-between items-center">
                             <h2 class="text-[1.125rem] font-[600] text-[#26282C]">Sales Trend</h2>
@@ -266,29 +266,29 @@
                     </div>
                     </div>
                 </section>
-                <section class="sect2 flex">
+                <section class="sect2 flex px-[1.3rem] gap-[1rem]">
                     <div class="last-orders bg-white w-[50.375rem] h-[26.375rem] flex-shrink-0 rounded-[0.875rem] p-[1rem]">
-                        <div class="last-order flex flex-col">
+                        <div class="last-order flex flex-col gap-[1rem]">
                             <div class="heading flex w-[47.875rem] h-[1.625rem] justify-between items-center gap-[2rem]">
                                 <h2 class="text-[1.125rem] font-[600] text-[#26282C]">Last Orders</h2>
                                 <h5 class="text-[1.125rem] text-lightgreen">See All</h5>
                             </div>
-                            <div class="details flex w-[47.875] justify-between items-start">
+                            <div class="details flex w-[47.875rem] justify-between items-center">
                                 <h4 class="text-[#9CA4AB] text-[1rem] font-[500] w-[13.5rem]">Name</h4>
                                 <h4 class="text-[#9CA4AB] text-[1rem] font-[500] w-[7.25rem]">Date</h4>
                                 <h4 class="text-[#9CA4AB] text-[1rem] font-[500] w-[7.5rem]">Amount</h4>
                                 <h4 class="text-[#9CA4AB] text-[1rem] font-[500] w-[5.9375rem]">Status</h4>
                                 <h4 class="text-[#9CA4AB] text-[1rem] font-[500] w-[5rem]">Invoice</h4>
                             </div>
-                            <div class="details-info inline-flex flex-col items-start gap-[1rem] items-center">
+                            <div class="details-info inline-flex flex-col items-start gap-[1rem]">
                                 <div class="line w-[100%] h-[0.0625rem] bg-[#EDF2F6]"></div>
-                                <div class="info flex justify-between items-center w-[100%] h-[2rem]">
-                                    <div class="profile flex 13.5rem items-center gap-[0.625rem]">
+                                <div class="info flex justify-between items-start w-[100%] h-[2rem]">
+                                    <div class="profile flex w-[13.2rem] items-center gap-[0.625rem]">
                                         <img src="./images/profile1.svg" alt="Profile" class="profilepic w-[2rem] h-[2rem]">
-                                        <h4 class="text-[#3A3F51] text-[1rem] font-[500] w-[7.75rem]"></h4>
+                                        <h4 class="text-[#3A3F51] text-[1rem] font-[500]">Marcus Bergson</h4>
                                     </div>
                                     <h4 class="text-[#737373] text-[1rem] font-[400] w-[7.25rem]">Nov 15, 2023</h4>
-                                    <h4 class="text-[#0D062D] text-[1rem] font-[500]">$80,000</h4>
+                                    <h4 class="text-[#0D062D] text-[1rem] font-[500] w-[9rem]">$80,000</h4>
                                     <h4 class="text-lightgreen text-[1rem] font-[400] w-[5.9375rem]">Paid</h4>
                                     <h4 class="flex w-[5rem] items-center gap-[0.375rem] text-[0.875rem] text-[#0D062D] font-[400]">
                                         <img src="./images/view.svg" alt="view" class="view">
@@ -296,27 +296,27 @@
                                     </h4>
                                 </div>
                                 <div class="line w-[100%] h-[0.0625rem] bg-[#EDF2F6]"></div>
-                                <div class="info flex justify-between items-center w-[100%] h-[2rem]">
-                                    <div class="profile flex 13.5rem items-center gap-[0.625rem]">
-                                        <img src="./images/profile1.svg" alt="Profile" class="profilepic w-[2rem] h-[2rem]">
-                                        <h4 class="text-[#3A3F51] text-[1rem] font-[500] w-[7.75rem]"></h4>
+                                <div class="info flex justify-between items-start w-[100%] h-[2rem]">
+                                    <div class="profile flex w-[13.2rem] items-center gap-[0.625rem]">
+                                        <img src="./images/profile2.svg" alt="Profile" class="profilepic w-[2rem] h-[2rem]">
+                                        <h4 class="text-[#3A3F51] text-[1rem] font-[500] w-[7.75rem]">Jaydon Vaccaro</h4>
                                     </div>
                                     <h4 class="text-[#737373] text-[1rem] font-[400] w-[7.25rem]">Nov 15, 2023</h4>
-                                    <h4 class="text-[#0D062D] text-[1rem] font-[500]">$150,000</h4>
-                                    <h4 class="text-lightgreen text-[1rem] font-[400] w-[5.9375rem]">Refund</h4>
+                                    <h4 class="text-[#0D062D] text-[1rem] font-[500] w-[9rem]">$150,000</h4>
+                                    <h4 class="text-lightred text-[1rem] font-[400] w-[5.9375rem]">Refund</h4>
                                     <h4 class="flex w-[5rem] items-center gap-[0.375rem] text-[0.875rem] text-[#0D062D] font-[400]">
                                         <img src="./images/view.svg" alt="view" class="view">
                                         view
                                     </h4>
                                 </div>
                                 <div class="line w-[100%] h-[0.0625rem] bg-[#EDF2F6]"></div>
-                                <div class="info flex justify-between items-center w-[100%] h-[2rem]">
-                                    <div class="profile flex 13.5rem items-center gap-[0.625rem]">
-                                        <img src="./images/profile1.svg" alt="Profile" class="profilepic w-[2rem] h-[2rem]">
-                                        <h4 class="text-[#3A3F51] text-[1rem] font-[500] w-[7.75rem]"></h4>
+                                <div class="info flex justify-between items-start w-[100%] h-[2rem]">
+                                    <div class="profile flex w-[13.2rem] items-center gap-[0.625rem]">
+                                        <img src="./images/profile3.svg" alt="Profile" class="profilepic w-[2rem] h-[2rem]">
+                                        <h4 class="text-[#3A3F51] text-[1rem] font-[500] w-[7.75rem]">Corey Schleifer</h4>
                                     </div>
                                     <h4 class="text-[#737373] text-[1rem] font-[400] w-[7.25rem]">Nov 14, 2023</h4>
-                                    <h4 class="text-[#0D062D] text-[1rem] font-[500]">$87,000</h4>
+                                    <h4 class="text-[#0D062D] text-[1rem] font-[500] w-[9rem]">$87,000</h4>
                                     <h4 class="text-lightgreen text-[1rem] font-[400] w-[5.9375rem]">Paid</h4>
                                     <h4 class="flex w-[5rem] items-center gap-[0.375rem] text-[0.875rem] text-[#0D062D] font-[400]">
                                         <img src="./images/view.svg" alt="view" class="view">
@@ -324,27 +324,27 @@
                                     </h4>
                                 </div>
                                 <div class="line w-[100%] h-[0.0625rem] bg-[#EDF2F6]"></div>
-                                <div class="info flex justify-between items-center w-[100%] h-[2rem]">
-                                    <div class="profile flex 13.5rem items-center gap-[0.625rem]">
-                                        <img src="./images/profile1.svg" alt="Profile" class="profilepic w-[2rem] h-[2rem]">
-                                        <h4 class="text-[#3A3F51] text-[1rem] font-[500] w-[7.75rem]"></h4>
+                                <div class="info flex justify-between items-start w-[100%] h-[2rem]">
+                                    <div class="profile flex w-[13.2rem] items-center gap-[0.625rem]">
+                                        <img src="./images/profile4.svg" alt="Profile" class="profilepic w-[2rem] h-[2rem]">
+                                        <h4 class="text-[#3A3F51] text-[1rem] font-[500] w-[7.75rem]">Cooper Press</h4>
                                     </div>
                                     <h4 class="text-[#737373] text-[1rem] font-[400] w-[7.25rem]">Nov 14, 2023</h4>
-                                    <h4 class="text-[#0D062D] text-[1rem] font-[500]">$100,000</h4>
-                                    <h4 class="text-lightgreen text-[1rem] font-[400] w-[5.9375rem]">Refund</h4>
+                                    <h4 class="text-[#0D062D] text-[1rem] font-[500] w-[9rem]">$100,000</h4>
+                                    <h4 class="text-lightred text-[1rem] font-[400] w-[5.9375rem]">Refund</h4>
                                     <h4 class="flex w-[5rem] items-center gap-[0.375rem] text-[0.875rem] text-[#0D062D] font-[400]">
                                         <img src="./images/view.svg" alt="view" class="view">
                                         view
                                     </h4>
                                 </div>
                                 <div class="line w-[100%] h-[0.0625rem] bg-[#EDF2F6]"></div>
-                                <div class="info flex justify-between items-center w-[100%] h-[2rem]">
-                                    <div class="profile flex 13.5rem items-center gap-[0.625rem]">
-                                        <img src="./images/profile1.svg" alt="Profile" class="profilepic w-[2rem] h-[2rem]">
-                                        <h4 class="text-[#3A3F51] text-[1rem] font-[500] w-[7.75rem]"></h4>
+                                <div class="info flex justify-between items-start w-[100%] h-[2rem]">
+                                    <div class="profile flex w-[13.2rem] items-center gap-[0.625rem]">
+                                        <img src="./images/profile5.svg" alt="Profile" class="profilepic w-[2rem] h-[2rem]">
+                                        <h4 class="text-[#3A3F51] text-[1rem] font-[500] w-[7.75rem]">Phillip Lubin</h4>
                                     </div>
                                     <h4 class="text-[#737373] text-[1rem] font-[400] w-[7.25rem]">Nov 13, 2023</h4>
-                                    <h4 class="text-[#0D062D] text-[1rem] font-[500]">$78,000</h4>
+                                    <h4 class="text-[#0D062D] text-[1rem] font-[500] w-[9rem]">$78,000</h4>
                                     <h4 class="text-lightgreen text-[1rem] font-[400] w-[5.9375rem]">Paid</h4>
                                     <h4 class="flex w-[5rem] items-center gap-[0.375rem] text-[0.875rem] text-[#0D062D] font-[400]">
                                         <img src="./images/view.svg" alt="view" class="view">
@@ -354,7 +354,54 @@
                             </div>
                         </div>
                     </div>
-                    <div class="top-platform"></div>
+                    <div class="top-platform inline-flex flex-col p-platform items-start gap-[1.25rem] rounded-platform bg-white w-[30.5rem] h-[29.375rem]">
+                        <div class="heading flex w-[28.25rem] h-[1.625rem] justify-between items-center gap-[2rem]">
+                            <h2 class="text-[1.125rem] font-[600] text-[#26282C]">Top Platform</h2>
+                            <h5 class="text-[1.125rem] text-lightgreen">See All</h5>
+                        </div>
+                        <div class="percentage flex flex-col gap-[1.25rem] overflow-hidden">
+                            <div class="inline-flex flex-col gap-[0.8rem] w-[28rem]">
+                                <h4 class="text-[1.125rem] font-[600]">Book Bazaar</h4>
+                                <div class="percentagecheck relative">
+                                    <div class="progress w-[28.25rem] h-[0.75rem] bg-[#F5F5F5] rounded-[2.2rem]"></div>
+                                    <div class="range h-[0.75rem] w-[15.3125rem] bg-[#6161DC] rounded-[2.2rem] absolute top-0"></div>
+                                </div>
+                                <div class="percent flex justify-between">
+                                    <h4 class="text-[#525252] text-[1.125rem] font-[400]">$2,500,000</h4>
+                                    <h4 class="text-[#525252] font-[400] text-[1.125rem]">+15%</h4>
+                                </div>
+                            </div>
+                            <div class="inline-flex flex-col gap-[0.8rem] w-[28rem]">
+                                <h4 class="text-[1.125rem] font-[600]">Artisan Aisle</h4>
+                                <div class="percentagecheck relative">
+                                    <div class="progress w-[28.25rem] h-[0.75rem] bg-[#F5F5F5] rounded-[2.2rem]"></div>
+                                    <div class="range h-[0.75rem] w-[12.76956rem] bg-[#54C5EB] rounded-[2.2rem] absolute top-0"></div>
+                                </div>
+                                <div class="percent flex justify-between">
+                                    <h4 class="text-[#525252] text-[1.125rem] font-[400]">$1,800,000</h4>
+                                    <h4 class="text-[#525252] font-[400] text-[1.125rem]">+10%</h4>
+                                </div>
+                            </div>
+                            <div class="inline-flex flex-col gap-[0.8rem] w-[28rem]">
+                                <h4 class="text-[1.125rem] font-[600]">Toy Troop</h4>
+                                <div class="percentagecheck relative">
+                                    <div class="progress w-[28.25rem] h-[0.75rem] bg-[#F5F5F5] rounded-[2.2rem]"></div>
+                                    <div class="range h-[0.75rem] w-[7.63319rem] bg-[#FFB74A] rounded-[2.2rem] absolute top-0"></div>
+                                </div>
+                                <div class="percent flex justify-between">
+                                    <h4 class="text-[#525252] text-[1.125rem] font-[400]">$1,200,000</h4>
+                                    <h4 class="text-[#525252] font-[400] text-[1.125rem]">+8%</h4>
+                                </div>
+                            </div>
+                            <div class="inline-flex flex-col gap-[0.8rem] w-[28rem]">
+                                <h4 class="text-[1.125rem] font-[600]">XStore</h4>
+                                <div class="percentagecheck relative gap-[1rem]">
+                                    <div class="progress w-[28.25rem] h-[0.75rem] bg-[#F5F5F5] rounded-[2.2rem]"></div>
+                                    <div class="range h-[0.75rem] w-[7.633195rem] bg-[#FF4A55] rounded-[2.2rem] absolute top-0"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </section>
             </div>
         </div>
