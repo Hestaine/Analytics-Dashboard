@@ -1496,6 +1496,10 @@ video {
   .sm\:w-\[16\.9375rem\] {
     width: 16.9375rem;
   }
+
+  .sm\:w-\[10\.5vh\] {
+    width: 10.5vh;
+  }
 }
 
 @media (min-width: 787px) {
