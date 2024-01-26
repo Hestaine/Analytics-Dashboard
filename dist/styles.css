@@ -1043,6 +1043,30 @@ video {
   gap: 4.9rem;
 }
 
+.gap-\[23rem\] {
+  gap: 23rem;
+}
+
+.gap-\[25rem\] {
+  gap: 25rem;
+}
+
+.gap-\[24\.6rem\] {
+  gap: 24.6rem;
+}
+
+.gap-\[24\.4rem\] {
+  gap: 24.4rem;
+}
+
+.gap-\[0\.4rem\] {
+  gap: 0.4rem;
+}
+
+.gap-\[24rem\] {
+  gap: 24rem;
+}
+
 .self-end {
   align-self: flex-end;
 }
@@ -1433,4 +1457,41 @@ video {
 
 .hover\:bg-gradient-to-b:hover {
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+}
+
+@media (min-width: 340px) {
+  .sm\:h-\[40rem\] {
+    height: 40rem;
+  }
+
+  .sm\:w-\[8rem\] {
+    width: 8rem;
+  }
+
+  .sm\:w-full {
+    width: 100%;
+  }
+
+  .sm\:w-fit {
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+}
+
+@media (min-width: 787px) {
+  .md\:h-\[60rem\] {
+    height: 60rem;
+  }
+
+  .md\:h-\[60\.5vh\] {
+    height: 60.5vh;
+  }
+
+  .md\:w-\[98vw\] {
+    width: 98vw;
+  }
+
+  .md\:w-\[98\.3vw\] {
+    width: 98.3vw;
+  }
 }
