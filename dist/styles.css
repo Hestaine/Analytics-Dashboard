@@ -999,6 +999,26 @@ video {
   gap: 4.9rem;
 }
 
+.gap-\[1\.15rem\] {
+  gap: 1.15rem;
+}
+
+.gap-\[1\.18rem\] {
+  gap: 1.18rem;
+}
+
+.gap-\[1\.19rem\] {
+  gap: 1.19rem;
+}
+
+.gap-\[1\.21rem\] {
+  gap: 1.21rem;
+}
+
+.gap-\[1\.23rem\] {
+  gap: 1.23rem;
+}
+
 .self-end {
   align-self: flex-end;
 }
