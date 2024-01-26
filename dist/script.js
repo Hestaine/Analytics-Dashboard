@@ -8,6 +8,7 @@ const salesTrend = document.querySelector('.sales-trend');
 const totalOrder = document.querySelectorAll('.total-order');
 const lastOrder = document.querySelector('.last-orders');
 const topPlatform = document.querySelector('.top-platform');
+const order = document.querySelector('.order');
 const nav = document.querySelector('.nav');
 const theme = document.querySelector('.theme');
 const mailText = document.querySelector('.mailtext')
@@ -44,8 +45,6 @@ lightModeBtn.addEventListener('click', (e)=>{
     topPlatform.classList.add('bg-white');
     topPlatform.classList.remove('text-ash-50');
     topPlatform.classList.add('text-ash-700');
-    mailText.classList.remove('text-ash-100');
-    mailText.classList.add('text-[#787486]');
     bars.forEach(bar =>{
         bar.classList.remove('bg-opaquegreen2');
         bar.classList.add('bg-opaquegreen');
@@ -72,6 +71,8 @@ lightModeBtn.addEventListener('click', (e)=>{
         number.classList.remove('text-ash-100');
         number.classList.add('text-[#3A3F51]');
     });
+    mailText.classList.remove('text-ash-100');
+    mailText.classList.add('text-[#787486]');
 });
 darkModeBtn.addEventListener('click', (e)=>{
     body.classList.remove('bg-ash-100');
@@ -100,8 +101,6 @@ darkModeBtn.addEventListener('click', (e)=>{
     topPlatform.classList.add('bg-ash-400');
     topPlatform.classList.remove('text-ash-700');
     topPlatform.classList.add('text-ash-0');
-    mailText.classList.remove('text-[#787486]');
-    mailText.classList.add('text-ash-100');
     bars.forEach(bar =>{
         bar.classList.remove('bg-opaquegreen');
         bar.classList.add('bg-opaquegreen2');
@@ -128,8 +127,8 @@ darkModeBtn.addEventListener('click', (e)=>{
         number.classList.remove('text-[#3A3F51]');
         number.classList.add('text-ash-100');
     });
-    mailText.classList.remove('text-[#787486]');
-    mailText.classList.add('text-ash-100');
+    mailText.classList.remove('text-[#787486]')
+    mailText.classList.add('text-ash-100')
 })
                                                //Bar Span
 bars.forEach((bar, index) =>{
