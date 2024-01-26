@@ -1476,6 +1476,10 @@ video {
     width: -moz-fit-content;
     width: fit-content;
   }
+
+  .sm\:w-\[40\.5vh\] {
+    width: 40.5vh;
+  }
 }
 
 @media (min-width: 787px) {
