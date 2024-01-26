@@ -1,7 +1,7 @@
 const lightModeBtn = document.querySelector('.bright');
 const darkModeBtn = document.querySelector('.dark');
 const bars = document.querySelectorAll('.bar');
-const span = document.querySelectorAll('.spantext');
+const spans = document.querySelectorAll('.spantext');
 const body = document.querySelector('body');
 const slideBar = document.querySelector('.slidebar');
 const salesTrend = document.querySelector('.sales-trend');
@@ -132,4 +132,11 @@ darkModeBtn.addEventListener('click', (e)=>{
     mailText.classList.add('text-ash-100');
 })
                                                //Bar Span
-bar.addEventListener('mou')
+bars.forEach((bar, index) =>{
+    bar.addEventListener('mouseover', (e)=>{
+        spans.forEach(span =>{
+            span.classList.add('hidden');
+            spans[index].classList.remove('hidden');
+        });
+    })
+})
