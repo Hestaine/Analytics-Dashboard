@@ -1484,6 +1484,14 @@ video {
   .sm\:w-\[30\.5vh\] {
     width: 30.5vh;
   }
+
+  .sm\:w-\[208rem\] {
+    width: 208rem;
+  }
+
+  .sm\:w-\[fit\] {
+    width: fit;
+  }
 }
 
 @media (min-width: 787px) {
