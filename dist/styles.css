@@ -1480,6 +1480,10 @@ video {
   .sm\:w-\[40\.5vh\] {
     width: 40.5vh;
   }
+
+  .sm\:w-\[30\.5vh\] {
+    width: 30.5vh;
+  }
 }
 
 @media (min-width: 787px) {
