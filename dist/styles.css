@@ -1141,6 +1141,10 @@ video {
   background-color: rgba(52, 202, 165, 0.12);
 }
 
+.bg-opaquegreen2 {
+  background-color: rgba(52, 202, 165, 0.72);
+}
+
 .bg-opaquered {
   background-color: rgba(237, 84, 78, 0.12);
 }

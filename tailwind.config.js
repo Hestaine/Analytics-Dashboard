@@ -27,6 +27,7 @@ module.exports = {
         "darkgreen": "rgba(52, 202, 165, 1)",
         "opaquegreen": "rgba(52, 202, 165, 0.12)",
         "opaquered": "rgba(237, 84, 78, 0.12)",
+        "opaquegreen2": "rgba(52, 202, 165, 0.72)",
         "bar": "rgba(52, 202, 165, 0.10)",
         "barhover": "rgba(52, 202, 165)"
       },

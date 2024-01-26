@@ -1,6 +1,6 @@
 const lightModeBtn = document.querySelector('.bright');
 const darkModeBtn = document.querySelector('.dark');
-const bar = document.querySelectorAll('.bar');
+const bars = document.querySelectorAll('.bar');
 const span = document.querySelectorAll('.spantext');
 const body = document.querySelector('body');
 const slideBar = document.querySelector('.slidebar');
@@ -10,12 +10,13 @@ const lastOrder = document.querySelector('.last-orders');
 const topPlatform = document.querySelector('.top-platform');
 const nav = document.querySelector('.nav');
 const theme = document.querySelector('.theme');
+const mailText = document.querySelector('.mailtext')
 const chartAmt = document.querySelectorAll('.amt');
 const totalText = document.querySelectorAll('.totaltext');
-const greenText = document.querySelectorAll('.text-lightgreen')
-const totalNumber = document.querySelectorAll('.totalnumber')
+const totalNumber = document.querySelectorAll('.totalnumber');
 const details = document.querySelectorAll('.details');
-
+const whiteSpace = document.querySelector('.whitespace');
+                                               //Theme
 lightModeBtn.addEventListener('click', (e)=>{
     body.classList.remove('bg-ash-700');
     body.classList.add('bg-ash-100');
@@ -28,7 +29,9 @@ lightModeBtn.addEventListener('click', (e)=>{
     slideBar.classList.remove('bg-ash-500');
     slideBar.classList.add('bg-ash-1000');
     theme.classList.remove('bg-ash-400');
-    theme.classList.add('bg-ash-1000');
+    theme.classList.add('bg-white');
+    whiteSpace.classList.remove('bg-ash-400');
+    whiteSpace.classList.add('bg-white');
     salesTrend.classList.remove('bg-ash-400');
     salesTrend.classList.add('bg-white');
     salesTrend.classList.remove('text-ash-50');
@@ -41,6 +44,12 @@ lightModeBtn.addEventListener('click', (e)=>{
     topPlatform.classList.add('bg-white');
     topPlatform.classList.remove('text-ash-50');
     topPlatform.classList.add('text-ash-700');
+    mailText.classList.remove('text-ash-100');
+    mailText.classList.add('text-[#787486]');
+    bars.forEach(bar =>{
+        bar.classList.remove('bg-opaquegreen2');
+        bar.classList.add('bg-opaquegreen');
+    })
     totalOrder.forEach(order =>{
         order.classList.remove('bg-ash-400');
         order.classList.add('bg-white');
@@ -75,8 +84,10 @@ darkModeBtn.addEventListener('click', (e)=>{
     nav.classList.add('text-ash-50');
     slideBar.classList.remove('bg-ash-50');
     slideBar.classList.add('bg-ash-500');
-    theme.classList.remove('bg-ash-50');
+    theme.classList.remove('bg-white');
     theme.classList.add('bg-ash-400');
+    whiteSpace.classList.remove('bg-white');
+    whiteSpace.classList.add('bg-ash-400');
     salesTrend.classList.remove('bg-white');
     salesTrend.classList.add('bg-ash-400');
     salesTrend.classList.remove('text-ash-700');
@@ -89,6 +100,12 @@ darkModeBtn.addEventListener('click', (e)=>{
     topPlatform.classList.add('bg-ash-400');
     topPlatform.classList.remove('text-ash-700');
     topPlatform.classList.add('text-ash-0');
+    mailText.classList.remove('text-[#787486]');
+    mailText.classList.add('text-ash-100');
+    bars.forEach(bar =>{
+        bar.classList.remove('bg-opaquegreen');
+        bar.classList.add('bg-opaquegreen2');
+    })
     totalOrder.forEach(order =>{
         order.classList.remove('bg-white');
         order.classList.add('bg-ash-400');
@@ -111,4 +128,8 @@ darkModeBtn.addEventListener('click', (e)=>{
         number.classList.remove('text-[#3A3F51]');
         number.classList.add('text-ash-100');
     });
+    mailText.classList.remove('text-[#787486]');
+    mailText.classList.add('text-ash-100');
 })
+                                               //Bar Span
+bar.addEventListener('mou')
