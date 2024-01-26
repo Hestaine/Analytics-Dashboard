@@ -1492,6 +1492,10 @@ video {
   .sm\:w-\[fit\] {
     width: fit;
   }
+
+  .sm\:w-\[16\.9375rem\] {
+    width: 16.9375rem;
+  }
 }
 
 @media (min-width: 787px) {
@@ -1509,5 +1513,9 @@ video {
 
   .md\:w-\[98\.3vw\] {
     width: 98.3vw;
+  }
+
+  .md\:w-\[14\.9375rem\] {
+    width: 14.9375rem;
   }
 }
